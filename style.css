@@ -36,20 +36,36 @@ nav ul li a{
 }
 .row{
 	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	height: 88%;
 	align-items: center;
 }
 .col{
-	flex-basis: 50
+	flex-basis: 50;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.col p {
+	text-align: center;
 }
 h1{
 	color: #fff;
 	font-size: 100px;
-	margin-left: 600px;
 
 }
 p{
 	color: #fff;
-	font-size: 11px
-	line-height: 15px
+	line-height: 15px;
+	font-size: 20px
+}
+
+audio {
+	justify-content: space-around;
+}
+
+audio:hover {
+	cursor: pointer;
 }
